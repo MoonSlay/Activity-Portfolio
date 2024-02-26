@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Hobbies";
+}
+<html>
+<head>
+    <style>
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-box {
+            width: 70%;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .image-box img {
+                max-width: 100%;
+                height: auto;
+            }
+
+        .description {
+            text-align: left;
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <h1>My Hobbies</h1>
+    <div class="image-container">
+        <div class="image-box">
+            <img src="~/img/dota2.gif" />
+            <div class="description">
+                <h1>
+                    Playing Computer/Mobile Games:
+                </h1>
+                <p>
+                    I started playing computer games since I was in grade 1, when my father bought us a family PC which contained a snowman SkiFree. And up until now I still play multiple digital games like Valorant, LOL, Dota 2, Lords Mobile, and many more.
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="image-box">
+            <img src="~/img/anime.gif" />
+            <div class="description">
+                <h1>
+                    Watching Anime/Movies:
+                </h1>
+                <p>
+                    I love watching anime and movies. For anime I like watching chill/isekai genre, I am not a fan of anything mechanical like robots. As for movies I like sci-fi and comedy genre.
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="image-box">
+            <img src="~/img/manga.webp" />
+            <div class="description">
+                <h1>
+                    Reading Manga:
+                </h1>
+                <p>
+                    I used to read different types of manga, but nowadays I only read colored manga from asurascans which are mostly martial arts, isekai manga.
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="image-box">
+            <img src="~/img/cooking.gif" />
+            <div class="description">
+                <h1>
+                    Cooking/Eating:
+                </h1>
+                <p>
+                    I remember the first time that I cooked was when I was in grade 2 and my mother left me and my siblings at home, and me and my sister tried cooking meatloaf and yes it was burnt. But nowadays I like to cook something from time to time and I have a lot of saved up recipes that I would love to try when we have a long vacation.
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="image-box">
+            <img src="~/img/sleeping.gif" />
+            <div class="description">
+                <h1>
+                    Sleeping:
+                </h1>
+                <p>
+                    I like sleep. Sleep is fun
+                </p>
+            </div>
+        </div>
+        <hr>
+    </div>
+</body>
+</html>

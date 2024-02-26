@@ -1,0 +1,14 @@
+﻿.container {
+    display: flex;
+    align-items: center;
+}
+
+img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 25px;
+    top: 90px;
+}

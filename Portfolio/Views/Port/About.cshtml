@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "About me";
+}
+<html>
+<head>
+    <style>
+        body {
+            padding-top: 0px;
+            padding-bottom: 20px;
+            background-image: url('/img/clouds.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            margin: auto;
+        }
+
+        * {
+            color: black;
+        }
+
+        .border {
+            border: 10px solid black;
+            border-radius: 10px;
+        }
+    </style>
+    <link href="~/css/about.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row align-items-center vh-100">
+            <div class="col-md-6">
+                <img class="position-absolute top-50 start-5 translate-middle-y border" src="~/img/profile picture.png" width="400" height="400" />
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="border p-3 bg-light-transparent position-relative">
+                    <div class="blur-background"></div>
+                    <p class="text-dark">
+                        Hello, My name is Angelo O. Del Rosario and I am currently enrolled as a third year Computer Engineering student at Angeles University Foundation. I am 21 years old this year and live in Concepcion, Tarlac.
+
+                        I chose to be a CPE student since I like Computers in general and want to know more about it.
+
+                        My favorite animal is dogs, and as of the moment, my favorite breed is Australian shepherd and golden retriever.
+                    </p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
